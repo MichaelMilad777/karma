@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>شركة الكرمة لتقاوي البرسيم</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* =========== القاعدة العامة =========== */
+*{box-sizing:border-box;font-family:'Tahoma',sans-serif;margin:0;padding:0}
+body{background:#f5f7fa;color:#222;line-height:1.7}
+a{color:#006d5b;text-decoration:none}
+ul{list-style:none}
+
+/* =========== الترويسة =========== */
+header{background:#006d5b;color:#fff;padding:20px 15px;text-align:center}
+header h1{font-size:2rem;margin-bottom:5px}
+header p{font-size:1.1rem}
+
+/* =========== شريط التنقّل =========== */
+nav{background:#054237}
+nav ul{display:flex;flex-wrap:wrap;justify-content:center}
+nav li{margin:5px 10px}
+nav a{color:#fff;padding:8px 14px;display:block;border-radius:4px}
+nav a:hover{background:#01876c}
+
+/* =========== القسم الرئيسي =========== */
+section{padding:40px 20px;max-width:1100px;margin:auto}
+section h2{font-size:1.6rem;margin-bottom:20px;color:#006d5b;text-align:center}
+
+/* =========== شبكات البطاقات =========== */
+.cards{display:grid;gap:25px;margin-top:25px}
+@media(min-width:600px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.cards{grid-template-columns:repeat(3,1fr)}}
+.card{background:#fff;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.08);overflow:hidden;text-align:center}
+.card img{width:100%;height:220px;object-fit:cover}
+.card h3{padding:15px 10px;font-size:1.2rem;background:#f0f0f0}
+
+/* =========== بيانات الاتصال =========== */
+.contact{background:#fff;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.08);padding:25px;font-size:1.1rem}
+.contact strong{color:#006d5b}
+
+/* =========== التذييل =========== */
+footer{background:#006d5b;color:#fff;text-align:center;padding:12px;font-size:.9rem;margin-top:40px}
+</style>
+</head>
+<body>
+
+<!-- الترويسة -->
+<header>
+  <h1>شركة الكرمة للتجارة والاستيراد</h1>
+  <p>خبرة في استيراد وتوزيع تقاوي البرسيم الحجازي والخضراوي</p>
+</header>
+
+<!-- شريط التنقّل -->
+<nav>
+  <ul>
+    <li><a href="#about">عن الشركة</a></li>
+    <li><a href="#products">الأصناف المتاحة</a></li>
+    <li><a href="#contact">تواصل معنا</a></li>
+  </ul>
+</nav>
+
+<!-- عن الشركة -->
+<section id="about">
+  <h2>عن شركة الكرمة</h2>
+  <p>تعمل شركة <strong>الكرمة</strong> على توفير أجود تقاوي البرسيم الحجازي (Alfalfa) والبرسيم الخضراوي، بالإضافة إلى بذور الكمون والينسون، مع ضمان أعلى معدلات <em>النقاوة والإنبات</em> طبقًا لمعايير <span dir="ltr">OECD</span> الدولية.</p>
+  <img src="person.jpg" alt="مدير الشركة" style="display:block;margin:30px auto;border-radius:8px;width:250px">
+</section>
+
+<!-- المنتجات -->
+<section id="products">
+  <h2>أسماء وأنواع البرسيم المتوفرة</h2>
+
+  <div class="cards">
+    <!-- بطاقة 1 -->
+    <div class="card">
+      <img src="label_cuf101.jpg" alt="برسيم أمريكي CUF 101">
+      <h3>برسيم أمريكي أصلي CUF 101</h3>
+    </div>
+
+    <!-- بطاقة 2 -->
+    <div class="card">
+      <img src="label_american_broken.jpg" alt="برسيم كسر أمريكي">
+      <h3>برسيم كَسر أمريكي</h3>
+    </div>
+
+    <!-- بطاقة 3 -->
+    <div class="card">
+      <img src="label_egypt90.jpg" alt="برسيم مصري طول 90">
+      <h3>برسيم مصري (طول 90 سم)</h3>
+    </div>
+
+    <!-- بطاقة 4 -->
+    <div class="card">
+      <img src="label_australian.jpg" alt="برسيم أسترالي">
+      <h3>برسيم أسترالي مُحسَّن</h3>
+    </div>
+  </div>
+</section>
+
+<!-- التواصل -->
+<section id="contact">
+  <h2>للطلب والتواصل</h2>
+
+  <div class="contact">
+    <p>مسؤول المبيعات: <strong>مرقص زكي الزيات</strong></p>
+    <p>01006293080&nbsp;|&nbsp;01120009713</p>
+    <p>العنوان: المنيا – سمالوط – قرية قلوصنا</p>
+  </div>
+</section>
+
+<footer>
+  جميع الحقوق محفوظة &copy; شركة الكرمة 2025
+</footer>
+
+</body>
+</html>
